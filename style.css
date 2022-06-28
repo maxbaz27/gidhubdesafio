@@ -21,13 +21,22 @@
     
     
 }
-.cabecera__lista__link{
+.box {
+    border-radius: 6px;
+    height: 20px;
+    width: 40px;
+    margin: 25px auto;
+}
+.box-uno{
     background-color: aquamarine;
-    display: inline-block;
+    display: inline-table;
     padding: 20px 60px;
     font-size: 18px;
-    
+    transition: all 4s;
 
+}
+.box:hover{
+    transform: scale(1.5);
 }
 
 .logo2{
