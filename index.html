@@ -8,26 +8,38 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Conoce mi ciudad!</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <div class="contenedor">
-            <img src="../imagen/Vista 1.jpg" alt="vista Posadas">
-            <div class="centrado"><b>Conoce mi ciudad</b></div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../imagen/Vista 1.jpg" class="d-block w-100" alt="imagen de posadas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../imagen/HotelesPosadas.jpg" class="d-block w-100" alt="imagen 2 de posadas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../imagen/posadas3.png" class="d-block w-100" alt="imagen 3 de posadas">
+                    </div>
+                </div>
+            </div>
             
-            <!-- Todos los LI irian dentro de la imagen -->
-
+        
+            
             <ul class="cabecera__lista">
                 <li class="cabecera__inicio__sesion"><a href="registrate.html" target="_blank">Inicia Sesion</a></li>
                 <li class="cabecera__inicio__sesion"><a href="registrate.html" target="_blank">Registrate</a></li>
-        </div>         <!-- Esto seria como el logo de bienvenida dentro de la imagen-->
-                <!-- Hasta aca -->
-        <div>
-            </ul>
+            </div>         <!-- Esto seria como el logo de bienvenida dentro de la imagen-->
+            <!-- Hasta aca -->
+            <div>
+          
             <nav  class="cabecera__lista">
                 <ul> <!-- Esto seria como un submenu, que iria con un fondo oscuro-->
                     <p class="logo2"><b>Conoce mi ciudad</b></p>
+                    <!-- Aca hice el cambio, puse las animaciones -->
                     <li class="box box-uno"><a href="index.html" target="_blank">Inicio</a></li>
                     <li class="box box-uno"><a href="hoteles.html" target="_blank">Hoteles</a></li>
                     <li class="box box-uno"><a href="Resto-bar.html" target="_blank">Resto-Bar</a></li>
@@ -36,13 +48,13 @@
             </nav>
         </div>
     </header>
-
-    <section> <!-- Aca tendria como una descripcion o intrduccion de lo que vana a encotrar en la pag-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aspernatur doloribus, provident harum necessitatibus quia quaerat nobis incidunt natus dignissimos perspiciatis, odio vitae! Culpa esse qui odit facere, repudiandae reiciendis!
-        Placeat ea in nesciunt nemo? Corrupti doloremque fugit et nobis, quas tenetur nam, tempora sint molestiae impedit voluptatibus veniam placeat omnis corporis minima maiores nostrum, est ducimus asperiores vitae saepe.</p>
-    </section>
-
-    <section>
+        
+        <section> <!-- Aca tendria como una descripcion o intrduccion de lo que vana a encotrar en la pag-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aspernatur doloribus, provident harum necessitatibus quia quaerat nobis incidunt natus dignissimos perspiciatis, odio vitae! Culpa esse qui odit facere, repudiandae reiciendis!
+                Placeat ea in nesciunt nemo? Corrupti doloremque fugit et nobis, quas tenetur nam, tempora sint molestiae impedit voluptatibus veniam placeat omnis corporis minima maiores nostrum, est ducimus asperiores vitae saepe.</p>
+            </section>
+            
+            <section>
 
         <!-- aca quiero poner un recuadro con un video de fondo y una pequeña reseña de la ciudad-->
         <!-- Este es un video random nomas -->
@@ -74,5 +86,6 @@
             </ul>
         </nav>
     </footer>
+    
 </body>
 </html>

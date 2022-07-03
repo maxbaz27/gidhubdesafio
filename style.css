@@ -41,12 +41,13 @@
 
 .logo2{
     color: blue;
+    justify-content: center;
+    
 }
 .contenedor{
     position: relative;
     display: inline-block;
     text-align: center;
-    
 }
 .texto-encima{
     position: absolute;
