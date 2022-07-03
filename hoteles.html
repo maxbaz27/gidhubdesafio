@@ -8,29 +8,53 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Hoteles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <header class="contenedor">
-        <div>
-        </ul>
+      <div>
         <nav  class="cabecera__lista">
             <ul> <!-- Esto seria como un submenu, que iria con un fondo oscuro-->
                 <p class="logo2"><b>Conoce mi ciudad</b></p>
-                <li class="cabecera__lista__link"><a href="index.html" target="_blank">Inicio</a></li>
-                <li class="cabecera__lista__link"><a href="Hoteles.html" target="_blank">Hoteles</a></li>
-                <li class="cabecera__lista__link"><a href="Resto-bar.html" target="_blank">Resto-Bar</a></li>
-                <li class="cabecera__lista__link"><a href="contactos.html" target="_blank">Contactos</a></li>
+                <!-- Aca hice el cambio, puse las animaciones -->
+                <li class="box box-uno"><a href="index.html" target="_blank">Inicio</a></li>
+                <li class="box box-uno"><a href="hoteles.html" target="_blank">Hoteles</a></li>
+                <li class="box box-uno"><a href="Resto-bar.html" target="_blank">Resto-Bar</a></li>
+                <li class="box box-uno"><a href="contactos.html" target="_blank">Contactos</a></li>
             </ul>
         </nav>
-    </div>
-        
-        <div>
-            <img src="../imagen/hotelesposadas2.jpg" alt="Vista de encabezado"> <!-- Encabezado con una palabra HOTELES -->
-            <div class="centrado"><b>Hoteles</b></div>
+      </div>
+      <div class="contenedor">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imagen/Hotel-Posadas-800x600.webp" class="d-block w-100" alt="...">
         </div>
-        <!-- Reseña de los hoteles -->
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae repellendus, et commodi cum molestiae ipsum assumenda quaerat ipsam laboriosam sequi earum officia rerum consectetur repellat quibusdam, in expedita est exercitationem?</p>
-    </header>
+        <div class="carousel-item">
+            <img src="../imagen/hotel-julio-cesar.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="../imagen/hotelposadas5.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</div>  
+<!-- Reseña de los hoteles -->
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae repellendus, et commodi cum molestiae ipsum assumenda quaerat ipsam laboriosam sequi earum officia rerum consectetur repellat quibusdam, in expedita est exercitationem?</p>
+</header>
     <section>
         <img src="../imagen/hotel1.jpg" alt="nombre del hotel1">
         
@@ -44,6 +68,7 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
