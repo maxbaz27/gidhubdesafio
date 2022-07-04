@@ -6,6 +6,26 @@
     
 }
 
+/* Mobile */
+@media only screen and (max-width: 960px) {
+    body{
+        background-color: rgb(165, 146, 122);
+    }
+}
+
+/* Tablet */
+/* @media only screen and (min-width: 469px) and (max-width: 960px) {
+    body{
+        background-color: #f2bb5c;
+    }
+} */
+
+/* Desktop */
+@media only screen and (min-width: 961px){
+    body{
+        background-color: #f08d91;
+    }
+}
 
 .cabecera__lista a{
     color: rgb(218, 12, 12);
